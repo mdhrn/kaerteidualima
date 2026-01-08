@@ -1,7 +1,8 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
   <model name="obstacle">
-    <static>true</static> <link name="link">
+    <static>true</static>
+    <link name="link">
       <collision name="collision">
         <geometry>
           <mesh>
@@ -12,7 +13,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model:/obstacle/meshes/obstacle.dae</uri>
+            <uri>model://obstacle/meshes/obstacle.dae</uri>
           </mesh>
         </geometry>
       </visual>
